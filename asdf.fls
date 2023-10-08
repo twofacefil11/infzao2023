@@ -1,0 +1,5 @@
+PWD c:\studia\infzao2023
+INPUT C:\Users\twofa\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
+INPUT c:\studia\infzao2023\asdf.tex
+OUTPUT asdf.log
+OUTPUT .tex

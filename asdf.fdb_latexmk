@@ -1,0 +1,17 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "asdf.xdv" "asdf.pdf" "asdf" 0 -1
+  "asdf.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "asdf.pdf"
+  (rewritten before read)
+["xelatex"] 1696727574 "c:/studia/infzao2023/asdf.tex" "asdf.xdv" "asdf" 1696727575 2
+  "C:/Users/twofa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1696721436 37448774 0e62c00af3282320101d49dbd22fb0cc ""
+  "asdf.aux" 1696727574 34 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "asdf.tex" 1696727566 753 2e6048d0d209c2186f2b847cfb904128 ""
+  "c:/studia/infzao2023/asdf.tex" 1696727566 753 2e6048d0d209c2186f2b847cfb904128 ""
+  (generated)
+  ".tex"
+  "asdf.aux"
+  "asdf.log"
+  "asdf.xdv"
+  (rewritten before read)

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2023.10.8)  8 OCT 2023 03:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10) (preloaded format=xelatex 2023.10.8)  8 OCT 2023 03:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -471,12 +471,12 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9129 strings out of 410378
- 185714 string characters out of 5788030
- 1910416 words of memory out of 5000000
- 30407 multiletter control sequences out of 15000+600000
+ 9131 strings out of 410378
+ 185776 string characters out of 5788030
+ 1911416 words of memory out of 5000000
+ 30409 multiletter control sequences out of 15000+600000
  558953 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,5n,114p,328b,278s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MatematykaDyskretna.xdv (1 page, 876 bytes).
+Output written on MatematykaDyskretna.xdv (1 page, 1232 bytes).

@@ -1,6 +1,20 @@
 # Fdb version 4
 ["xdvipdfmx"] 0 "MatematykaDyskretna.xdv" "MatematykaDyskretna.pdf" "MatematykaDyskretna" 0 -1
-  "MatematykaDyskretna.xdv" 0 -1 0 "xelatex"
+  "MatematykaDyskretna.xdv" 1696728608 1968 045f051006986a5459b05182fb82d17d "xelatex"
   (generated)
   "MatematykaDyskretna.pdf"
+  (rewritten before read)
+["xelatex"] 1696728607 "c:/studia/infzao2023/MatematykaDyskretna.tex" "MatematykaDyskretna.xdv" "MatematykaDyskretna" 1696728608 2
+  "C:/Users/twofa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1696721436 37448774 0e62c00af3282320101d49dbd22fb0cc ""
+  "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1687174146 20144 fbcf51733730d8f1a62143512ff5b1fe ""
+  "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1687174146 8448 74078c4a887f2cdcd57c3ec111622740 ""
+  "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd" 1687174146 2430 a2e8a746c2c6ddf1df1fb6ad609d5f6a ""
+  "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xetex.def" 1681896761 31866 ab7ff58e8b7eb91f5882424abf292263 ""
+  "MatematykaDyskretna.aux" 1696728608 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "MatematykaDyskretna.tex" 1696728606 602 f353c2fd49e60a0d7258aaa4c03aad34 ""
+  "c:/studia/infzao2023/MatematykaDyskretna.tex" 1696728606 602 f353c2fd49e60a0d7258aaa4c03aad34 ""
+  (generated)
+  "MatematykaDyskretna.aux"
+  "MatematykaDyskretna.log"
+  "MatematykaDyskretna.xdv"
   (rewritten before read)

@@ -1,7 +1,7 @@
 \output={\setbox0=\vbox{\pagebody}\shipout\vbox{\unvbox0}}
 
 % Redirect auxiliary files to the 'aux' folder
-\def\jobname{aux/\jobname}
+\def\jobname{auxiliary/\jobname}
 \immediate\openout\newwrite\auxfile
 \immediate\write\auxfile{\string\openout=\string\jobname.aux}
 \immediate\closeout\auxfile

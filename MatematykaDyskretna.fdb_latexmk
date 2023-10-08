@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1696729686 "MatematykaDyskretna.xdv" "MatematykaDyskretna.pdf" "MatematykaDyskretna" 1696729687 0
-  "MatematykaDyskretna.xdv" 1696729686 1400 78c8e6fce9ac30c7ceaf9927958ab8ab "xelatex"
+["xdvipdfmx"] 1696729695 "MatematykaDyskretna.xdv" "MatematykaDyskretna.pdf" "MatematykaDyskretna" 1696729696 0
+  "MatematykaDyskretna.xdv" 1696729695 1400 78c8e6fce9ac30c7ceaf9927958ab8ab "xelatex"
   (generated)
   "MatematykaDyskretna.pdf"
   (rewritten before read)
-["xelatex"] 1696729684 "c:/studia/infzao2023/MatematykaDyskretna.tex" "MatematykaDyskretna.xdv" "MatematykaDyskretna" 1696729687 0
+["xelatex"] 1696729693 "c:/studia/infzao2023/MatematykaDyskretna.tex" "MatematykaDyskretna.xdv" "MatematykaDyskretna" 1696729696 0
   "C:/Users/twofa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1696721436 37448774 0e62c00af3282320101d49dbd22fb0cc ""
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1644000708 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1644000708 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -39,9 +39,9 @@
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-math-xetex.sty" 1691937353 131459 a23c98c9e5ecfc17568c7bc94fda1317 ""
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-math.sty" 1691937353 1474 b42cfbe849cb22ed1c0632800327884f ""
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "MatematykaDyskretna.aux" 1696729686 32 3985256e7290058c681f74d7a3565a19 "xelatex"
-  "MatematykaDyskretna.tex" 1696729683 737 b041522f5986f00fc0cfc2c715ff0611 ""
-  "c:/studia/infzao2023/MatematykaDyskretna.tex" 1696729683 737 b041522f5986f00fc0cfc2c715ff0611 ""
+  "MatematykaDyskretna.aux" 1696729695 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "MatematykaDyskretna.tex" 1696729692 564 611716caaa3c096ecffa2b75ff1b649d ""
+  "c:/studia/infzao2023/MatematykaDyskretna.tex" 1696729692 564 611716caaa3c096ecffa2b75ff1b649d ""
   (generated)
   "MatematykaDyskretna.aux"
   "MatematykaDyskretna.log"

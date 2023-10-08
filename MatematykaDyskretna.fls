@@ -7,6 +7,7 @@ INPUT C:\Users\twofa\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\twofa\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\twofa\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\twofa\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+OUTPUT MatematykaDyskretna.xdv
 INPUT C:\Users\twofa\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\twofa\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\twofa\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
@@ -77,5 +78,4 @@ INPUT .\MatematykaDyskretna.aux
 INPUT .\MatematykaDyskretna.aux
 INPUT MatematykaDyskretna.aux
 OUTPUT MatematykaDyskretna.aux
-OUTPUT MatematykaDyskretna.xdv
 INPUT MatematykaDyskretna.aux

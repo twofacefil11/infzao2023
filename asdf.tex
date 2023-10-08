@@ -1,0 +1,22 @@
+\output={\setbox0=\vbox{\pagebody}\shipout\vbox{\unvbox0}}
+
+% Redirect auxiliary files to the 'aux' folder
+\def\jobname{aux/\jobname}
+\immediate\openout\newwrite\auxfile
+\immediate\write\auxfile{\string\openout=\string\jobname.aux}
+\immediate\closeout\auxfile
+
+% Redirect PDF output to the 'pdf' folder
+\pdfoutput=1
+\edef\shipout{\shipout\hbox{\pdfpagewidth=\the\wd0 \pdfpageheight=\the\ht0 \box0}}
+\output={\shipout\vbox{\unvbox255}}
+
+% Redirect log files to the 'logs' folder
+\openout15=log/\jobname.log
+\openout16=log/\jobname.blg
+\openout17=log/\jobname.aux
+\openout18=log/\jobname.toc
+% ... (similarly for other log files)
+
+% Your Plain TeX document content goes here
+\bye

@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1696726748 "MatematykaDyskretna.xdv" "MatematykaDyskretna.pdf" "MatematykaDyskretna" 1696726749 0
+["xdvipdfmx"] 1696727111 "MatematykaDyskretna.xdv" "MatematykaDyskretna.pdf" "MatematykaDyskretna" 1696727112 0
   "MatematykaDyskretna.xdv" 1696726748 1968 6b37ffe94f196a568d85bede65d783a0 "xelatex"
   (generated)
   "MatematykaDyskretna.pdf"
   (rewritten before read)
-["xelatex"] 1696726745 "c:/studia/infzao2023/MatematykaDyskretna.tex" "MatematykaDyskretna.xdv" "MatematykaDyskretna" 1696726749 0
+["xelatex"] 1696726745 "c:/studia/infzao2023/MatematykaDyskretna.tex" "MatematykaDyskretna.xdv" "MatematykaDyskretna" 1696727112 0
   "C:/Users/twofa/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1696721436 37448774 0e62c00af3282320101d49dbd22fb0cc ""
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1644000708 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1644000708 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -40,8 +40,8 @@
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-math.sty" 1691937353 1474 b42cfbe849cb22ed1c0632800327884f ""
   "C:/Users/twofa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "MatematykaDyskretna.aux" 1696726748 32 3985256e7290058c681f74d7a3565a19 "xelatex"
-  "MatematykaDyskretna.tex" 1696726737 536 43fd5a06692fe9073374fad1e268d4f8 ""
-  "c:/studia/infzao2023/MatematykaDyskretna.tex" 1696726737 536 43fd5a06692fe9073374fad1e268d4f8 ""
+  "MatematykaDyskretna.tex" 1696727110 536 43fd5a06692fe9073374fad1e268d4f8 ""
+  "c:/studia/infzao2023/MatematykaDyskretna.tex" 1696727110 536 43fd5a06692fe9073374fad1e268d4f8 ""
   (generated)
   "MatematykaDyskretna.aux"
   "MatematykaDyskretna.log"

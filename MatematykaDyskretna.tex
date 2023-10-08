@@ -17,3 +17,23 @@ Hullo $\pi$ zdeczko $\sqrt[32]{1}$
 \[\log n\]
 
 \end{document}
+
+
+\documentclass{article}
+\usepackage{amsmath}
+
+% Define new math font sizes
+\DeclareMathSizes{10}{14}{10}{8}   % For textstyle (normal) math
+\DeclareMathSizes{10}{14}{7}{5}    % For scriptstyle (sub/superscripts) math
+\DeclareMathSizes{10}{14}{5}{4}    % For scriptscriptstyle (nested sub/superscripts) math
+
+\begin{document}
+
+Here is some text with inline math: $a^2 + b^2 = c^2$. 
+
+Here is a displayed equation with larger math font:
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}.
+\]
+
+\end{document}

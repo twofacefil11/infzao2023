@@ -536,4 +536,19 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 31.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 31.
- [1] (podsta
+ [1] (podstawyInformatyki.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 9144 strings out of 410378
+ 186293 string characters out of 5788030
+ 1916416 words of memory out of 5000000
+ 30418 multiletter control sequences out of 15000+600000
+ 559001 words of font info for 67 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 90i,5n,114p,328b,278s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on podstawyInformatyki.pdf (2 pages).

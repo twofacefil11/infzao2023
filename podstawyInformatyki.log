@@ -537,4 +537,31 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 32.
  [1]
-c:/stud
+c:/studia/infzao2023/podstawyInformatyki.tex:115: Missing control sequence inse
+rted.
+<inserted text> 
+                \inaccessible 
+l.115 ^^I\def U
+               kłady realizujące funkcje logiczne
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+)
+! Emergency stop.
+<*> c:/studia/infzao2023/podstawyInformatyki.tex
+                                                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 9144 strings out of 410378
+ 186325 string characters out of 5788030
+ 1919416 words of memory out of 5000000
+ 30419 multiletter control sequences out of 15000+600000
+ 559009 words of font info for 68 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 90i,6n,114p,328b,278s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on podstawyInformatyki.pdf (2 pages).

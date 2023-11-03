@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "potegasilnia": "cpp",
+        "numeric": "cpp"
+    }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lekcja pierfsza</title>
+    <style>
+        div {
+            width: 25%;
+            background-color: lightgray;
+            margin: 0 auto;
+            padding: 1%;
+            border-radius: 10px
+        }
+
+        #inputWrapper {
+            box-sizing: border-box;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        input {
+            position: relative;
+            width: 40%
+        }
+        
+        input[type="text"], input[type="number"] {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h1 {
+            width: fit-content;
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px;
+            border: solid 2px black;
+            border-radius: 5px;
+        }
+
+        .buttonWrapper {
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        #kontrolable {
+            position: absolute;
+            background-color: #444444;
+            width: 20vw;
+            height: 10vh;
+            left: 50vw;
+            top: 80vh;
+            transform: translate(-50%, -50%);
+            border: 10px solid #aaaaaa;
+            opacity: 69%;
+            text-align: center;
+            text-justify: center;
+            font-size: 30px;
+        }
+
+        #inputWrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- kalkulator -->
+    <div>
+        <form id="form1">
+            <div id="inputWrapper">
+                <input type="number" id="x" placeholder="x" />
+                <input type="number" id="y" placeholder="y" />
+            </div>
+            <h2>Wybierz operację</h2>
+            <div class="buttonWrapper">
+                <input type="button" value="+" id="dod" onclick="dodaj()">
+                <input type="button" value="-" id="od" onclick="odejmij()">
+                <input type="button" value="*" id="mno" onclick="pomnoz()">
+                <input type="button" value="/" id="dziel" onclick="dzielenie()">
+            </div>
+        </form>
+    </div>
+    <hr width="25%">
+    <div>
+        <form>
+            <div class="buttonWrapper">
+                <input type="button" value="2^x" id="dwadopot" onclick="potega()">
+                <input type="button" value="&#8730" id="sqrt" onclick="squareroot()">
+                <input type="button" value="!x" id="factorial" onclick="silnia()">
+            </div>
+        </form>
+    </div>
+    <h2>WYNIK:</h2>
+    <h1 id="wynik">?</h1>
+    <hr width="25%">
+    <!-- przesuwacz -->
+    <div>
+        <h2>Pogmeraj sobie</h2>
+        <div id="inputWrapper">
+            </form>
+            <input type="text" name="i1" id="i1" placeholder="420"><label for="i1">top</label>
+            <input type="text" name="i2" id="i2" placeholder="420"><label for="i2">left</label>
+            <hr width="50%">
+            <input type="button" value="zmiana" onclick="zmiana()">
+            <hr width="50%">
+            <input type="color" name="i3" value="#000000" id="i3" onchange="update()"><label for="i3">color txt</label>
+            <input type="color" name="i4" value="#444444" id="i4" onchange="update()"><label for="i4">bg color</label>
+            <input type="color" name="i5" value="#aaaaaa" id="i5" onchange="update()"><label for="i5">border-color</label>
+            <hr width="50%">
+        </div>
+    </div>
+    <div id="kontrolable">LaDiDa</div>
+</body>
+<script>
+
+    const x = document.getElementById('x');
+    const y = document.getElementById('y');
+    const wynik = document.getElementById('wynik');
+    const kontrolable = document.getElementById('kontrolable');
+
+    function dodaj() {
+        setH2(parseInt(x.value) + parseInt(y.value));
+    }
+
+    function odejmij() {
+        setH2(parseInt(x.value) - parseInt(y.value));
+    }
+
+    function pomnoz() {
+        setH2(parseInt(x.value) * parseInt(y.value));
+    }
+
+    function dzielenie() {
+        if (parseInt(y.value) == 0)
+            alert("Can't devide be zero");
+        else
+            setH2(parseInt(x.value) / parseInt(y.value));
+    }
+
+    function potega() {
+        let pr = prompt("do jakiej potegi chcesz podniesc dwojke?");
+        setH2(2 ** pr);
+    }
+
+    function squareroot() {
+        let sr = prompt("Z czego jasniepan rzyczy sobie pierwiastek?");
+        setH2(Math.sqrt(sr))
+    }
+
+    function silnia() {
+        let pr = prompt("Silnie jakie stopnia sobie jasniepan rzyczy?");
+        setH2(factorial(pr));
+        alert("twoja silnia to " + factorial(pr));
+    }
+
+    function setH2(res) {
+        wynik.innerHTML = res;
+    }
+
+    function factorial(f) {
+        if (f === 1)
+            return 1;
+        return f * factorial(f - 1);
+    }
+
+    function zmiana() {
+        kontrolable.style.transform = "translate(0%, 0%)";
+        kontrolable.style.top = i1.value + 'px';
+        kontrolable.style.left = i2.value + 'px';
+    }
+
+    function update() {
+        kontrolable.style.color = i3.value;
+        kontrolable.style.backgroundColor = i4.value;
+        kontrolable.style.borderColor = i5.value;
+    }
+</script>
+
+</html>

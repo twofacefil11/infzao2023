@@ -47,7 +47,7 @@ int main() {
                 break;
             }
         }
-        j++;
+        // j++;
     }
 
     cout << "Zgadles!!! w " << proby << " probach.";

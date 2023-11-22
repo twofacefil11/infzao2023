@@ -31,7 +31,7 @@ int main() {
 
         cout << "Wraz ma " << len << " liter. Wskazowka: ";
 
-        for (int i = 0; i != j; i++)
+        for (int i = 0; i < j; i++)
             cout << wyraz[i];
 
         cout << "\nZgaduj: ";

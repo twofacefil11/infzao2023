@@ -38,8 +38,10 @@ int main() {
         cin >> guess;
 
         for (int x = 0; wyraz[x] == guess[x]; x++) {
-            j = x;
-            cout << "\nCoraz bliżej!\n";
+            if (x > j) {
+                j = x;
+                cout << "\nCoraz blizej!\n";
+            }
             if (x == len) {
                 dobrze = 1;
                 break;

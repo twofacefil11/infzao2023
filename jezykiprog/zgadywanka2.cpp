@@ -9,7 +9,7 @@ int main() {
     int len = 0;
     int j = 0;
     bool dobrze = 0;
-    cout << "Podaj jakiś wyraz: ";
+    cout << "Podaj jakis wyraz (max 20 liter): ";
     cin >> wyraz;
 
     while (wyraz[len] != '\0')
@@ -28,7 +28,7 @@ int main() {
         for (int i = 0; i != j; i++) {
             cout << wyraz[i];
         }
-        cout << "Zgaduj: ";
+        cout << "\nZgaduj: ";
         cin >> guess;
 
         j++;

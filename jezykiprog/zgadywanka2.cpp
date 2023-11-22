@@ -6,7 +6,7 @@ int main() {
 
     char wyraz[20];
     char guess[20];
-    
+
     bool dobrze = 0;
     int proby = 0;
     int len = 0;
@@ -36,13 +36,15 @@ int main() {
 
         cout << "\nZgaduj: ";
         cin >> guess;
-        j++;
 
         for (int x = 0; wyraz[x] == guess[x]; x++) {
+            j = x;
+            cout << "\nCoraz bliżej!\n";
             if (x == len) {
                 dobrze = 1;
                 break;
             }
+        j++;
         }
     }
 

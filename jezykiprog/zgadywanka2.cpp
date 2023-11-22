@@ -21,13 +21,13 @@ int main() {
 
         proby++;
 
+        cout << "Wraz ma " << len << " liter. Wskazowka: ";
         for (int i = 0; i != j; i++) {
-            cout << "Wraz ma " << len << " liter. Wskazowka: ";
             cout << wyraz[i];
         }
+        cin >> guess;
 
         j++;
-        cin >> guess;
 
         for (int x = 0; wyraz[x] == guess[x]; x++) {
             if (x == len) {

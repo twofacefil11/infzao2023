@@ -28,6 +28,7 @@ int main() {
         for (int i = 0; i != j; i++) {
             cout << wyraz[i];
         }
+        cout << "Zgaduj: ";
         cin >> guess;
 
         j++;

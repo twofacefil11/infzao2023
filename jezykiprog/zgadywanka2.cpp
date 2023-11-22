@@ -18,7 +18,10 @@ int main() {
     system("cls");
 
     while (dobrze == 0) {
-
+        if (proby == len) {
+            cout << "Nie udalo ci sie zgadnonc. Wyraz to: " << wyraz << endl;
+            return 0;
+        }
         proby++;
 
         cout << "Wraz ma " << len << " liter. Wskazowka: ";

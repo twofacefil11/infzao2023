@@ -38,7 +38,7 @@ int main() {
         cin >> guess;
 
         for (int x = 0; wyraz[x] == guess[x]; x++) {
-            if (x == j) {
+            if (x > j) {
                 j = x;
                 cout << "\nCoraz blizej!\n";
             }

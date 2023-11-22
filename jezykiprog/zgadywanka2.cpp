@@ -39,7 +39,6 @@ int main() {
 
         for (int x = 0; wyraz[x] == guess[x]; x++) {
             if (x > j) {
-                cout << "dupa";
                 j = x;
                 cout << "\nCoraz blizej!\n";
             }

@@ -3,12 +3,15 @@
 using namespace std;
 
 int main() {
-    char guess[20];
+
     char wyraz[20];
+    char guess[20];
+    
+    bool dobrze = 0;
     int proby = 0;
     int len = 0;
     int j = 0;
-    bool dobrze = 0;
+
     cout << "Podaj jakis wyraz (max 20 liter): ";
     cin >> wyraz;
 

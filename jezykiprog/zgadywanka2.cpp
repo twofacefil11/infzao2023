@@ -36,18 +36,14 @@ int main() {
 
         cout << "\nZgaduj: ";
         cin >> guess;
+        j++;
 
         for (int x = 0; wyraz[x] == guess[x]; x++) {
-            if (x > j) {
-                j = x;
-                cout << "\nCoraz blizej!\n";
-            }
             if (x == len) {
                 dobrze = 1;
                 break;
             }
         }
-        j++;
     }
 
     cout << "Zgadles!!! w " << proby << " probach.";

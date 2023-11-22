@@ -1,0 +1,17 @@
+Load A    
+Store Y   
+Etykieta, Load Y     
+Add One   
+Store Y   
+Add A    
+Store A
+Load Y
+Subt B
+Skipcond 400
+Jump Etykieta
+Halt
+
+Y, DEC 1
+One, DEC 1
+A, DEC 3
+B, HEX A

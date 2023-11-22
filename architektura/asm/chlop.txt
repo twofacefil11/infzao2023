@@ -1,0 +1,15 @@
+E1, Load Res
+Add A
+Store Res
+Load A
+Add One
+Store A
+Subt B
+Skipcond 800
+Jump E1
+Halt
+
+Res, DEC 0
+A, DEC 3
+B, HEX A
+One, DEC 1

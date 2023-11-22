@@ -1,0 +1,6 @@
+Load A
+Add B
+Halt
+
+A, HEX FFFF
+B, HEX 1

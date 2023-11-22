@@ -1,0 +1,27 @@
+# CEDAR Logic RAM memory file.
+# The file format is:
+# "hex_address : hex_data"
+# 
+# For example, if the address "0" contained the decimal
+# number "18", then the line for that address would be:
+# "0 : 12"
+# 
+# Note that if a memory location is not represented here,
+# then it is assumed to contain the data value "0"
+
+0 : 1802
+1 : 2800
+2 : 1800
+3 : 3801
+4 : 2800
+5 : 3802
+6 : 2802
+7 : 4802
+8 : 4803
+9 : 8400
+A : 9002
+B : 7000
+800 : 1
+801 : 1
+802 : 3
+803 : A

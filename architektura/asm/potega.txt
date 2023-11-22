@@ -1,0 +1,35 @@
+Load Base
+Store Res
+
+Store BaseCount
+Load Pow
+Subt One
+Store Pow
+E1, Load Res
+Add Sum
+Store Sum
+Load BaseCount
+Subt One
+Store BaseCount
+Skipcond 400
+Jump E1
+Load Sum
+Store Res
+Subt Res
+Store Sum
+Load Base
+Store BaseCount
+Load Pow
+Subt One
+Store Pow
+Skipcond 400
+Jump E1
+Halt 
+
+
+Res, DEC 0
+Pow, DEC 3
+Sum, DEC 0
+Base, DEC 8
+BaseCount, DEC 0
+One, DEC 1

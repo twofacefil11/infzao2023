@@ -30,7 +30,7 @@ int main(void) {
 
     }
     pi = double(4 * w) / total;
-
+    cout << w << " " << total;
     cout << "Masz tu PI: " << pi << endl;
     return 0;
 

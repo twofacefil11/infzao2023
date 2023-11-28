@@ -28,7 +28,7 @@ int main(void) {
         if (dystans <= 1.0)
             w++;
         total++;
-1
+
     }
     pi = double(4 * w) / total;
     cout << "Masz tu PI: " << pi << endl;

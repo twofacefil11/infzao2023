@@ -7,7 +7,7 @@ int main(void) {
     srand(time(NULL));
 
     long w = 0, total = 0;
-    long PREC = 1000000000;
+    long PREC = 1000000;
     unsigned long p; //18446744073709551615 (maxa ale max możliwości to RPEC do kwadratu)
     double dystans;
     double x, y;
@@ -27,6 +27,7 @@ int main(void) {
         if (dystans <= 1.0)
             w++;
         total++;
+
         cout << " " << x << " " << y << " " << w << " " << total << endl;
     }
     pi = double(4 * w) / total;

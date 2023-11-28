@@ -26,7 +26,7 @@ int main(void) {
     float wyznaczik = 0;
     int offset;
 
-    for (int i = 0; i < size; i++, offset = 0) {
+    for (int i = 0; i < size; i++, offset = 0, dr = 1, dl = 1) {
         for (int j = 0; j < size; j++, offset++) {
             if (i + j == size) offset = 0;
             dr *= arr[i][i + offset];

@@ -32,7 +32,7 @@ int main(void) {
             dr *= arr[j][i + offset];
             dl *= arr[j][len - i - offset];
         }
-        wyznaczik +=  dr - dl;
+        wyznaczik += dr - dl;
     }
 
     cout << "Wyznaczik = " << wyznaczik << endl;

@@ -9,7 +9,7 @@ int main(void) {
     long PREC = 100000;
     long p;
     long x, y;
-    int dystans;
+    long dystans;
     long w = 0, total = 0;
     double pi;
 

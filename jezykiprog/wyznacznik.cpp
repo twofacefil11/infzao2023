@@ -28,8 +28,8 @@ int main(void) {
 
     for (int i = 0; i < size; i++, offset = 0, dr = 1, dl = 1) {
         for (int j = 0; j < size; j++, offset++) {
-            if (i + j == size) offset = 0;
-            dr *= arr[i][i + offset];
+            if (i + offset == size) offset = -i;
+            dr *= arr[j][i + offset];
             dl *= arr[i][len - offset];
             cout << i + offset << " " << len - offset << endl;
         }

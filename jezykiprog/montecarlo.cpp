@@ -9,7 +9,7 @@ int main(void) {
 
     long w = 0, total = 0;
     long PREC = 10000;
-    unsigned long p; //18446744073709551615 (maxa ale max możliwości to RPEC do kwadratu)
+    unsigned long p;
     double dystans;
     double x, y;
     double pi;

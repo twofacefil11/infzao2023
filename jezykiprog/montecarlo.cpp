@@ -8,7 +8,7 @@ int main(void) {
     srand(time(NULL));
 
     long w = 0, total = 0;
-    long PREC = 10000;
+    long PREC = 1000;
     long p;
     double dystans;
     double x, y;

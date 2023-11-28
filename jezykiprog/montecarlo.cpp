@@ -1,98 +1,42 @@
-// #include <iostream>
-// #include <time.h>
-// #include <math.h>
+#include <iostream>
+#include <time.h>
+#include <math.h>
 
-// using namespace std;
-
-// int main(void) {
-//     srand(time(NULL));
-
-//     long w = 0, total = 0;
-//     long PREC = 1000000;
-//     unsigned long p; //18446744073709551615 (maxa ale max możliwości to RPEC do kwadratu)
-//     double dystans;
-//     double x, y;
-//     double pi;
-
-//     cout << "Podaj liczbe punkuf: ";
-//     cin >> p;  
-//     p++;
-
-//     for (unsigned long i = 0; i < p; i++) {
-        
-//         x = double(rand() % (PREC + 1)) / PREC;
-//         y = double(rand() % (PREC + 1)) / PREC;
-    
-//         dystans = sqrt(x * x + y * y);
-
-//         if (dystans <= 1.0)
-//             w++;
-//         total++;
-
-//         cout << " " << x << " " << y << " " << w << " " << total << endl;
-//         cout << dystans << endl;
-//     }
-//     pi = double(4 * w) / total;
-//     cout << "Masz tu PI: " << pi << endl;
-
-
-//     return 0;
-// }
-
-
-/* C++ program for estimation of Pi using Monte
-Carlo Simulation */
-#include <bits/stdc++.h>
-
-// Defines precision for x and y values. More the
-// interval, more the number of significant digits
-#define INTERVAL 10000
 using namespace std;
 
-int main()
-{
-	int interval, i;
-	double rand_x, rand_y, origin_dist, pi;
-	int circle_points = 0, square_points = 0;
+int main(void) {
+    srand(time(NULL));
 
-	// Initializing rand()
-	srand(time(NULL));
+    long w = 0, total = 0;
+    long PREC = 1000000;
+    unsigned long p; //18446744073709551615 (maxa ale max możliwości to RPEC do kwadratu)
+    double dystans;
+    double x, y;
+    double pi;
 
-	// Total Random numbers generated = possible x
-	// values * possible y values
-	for (i = 0; i < (INTERVAL * INTERVAL); i++) {
+    cout << "Podaj liczbe punkuf: ";
+    cin >> p;  
+    p++;
 
-		// Randomly generated x and y values
-		rand_x = double(rand() % (INTERVAL + 1)) / INTERVAL;
-		rand_y = double(rand() % (INTERVAL + 1)) / INTERVAL;
+    for (unsigned long i = 0; i < p; i++) {
+        
+        x = double(rand() % (PREC + 1)) / PREC;
+        y = double(rand() % (PREC + 1)) / PREC;
+    
+        dystans = sqrt(x * x + y * y);
 
-		// Distance between (x, y) from the origin
-		origin_dist = rand_x * rand_x + rand_y * rand_y;
+        if (dystans <= 1.0)
+            w++;
+        total++;
 
-		// Checking if (x, y) lies inside the define
-		// circle with R=1
-		if (origin_dist <= 1)
-			circle_points++;
+        cout << " " << x << " " << y << " " << w << " " << total << endl;
+        cout << dystans << endl;
+    }
+    pi = double(4 * w) / total;
+    cout << "Masz tu PI: " << pi << endl;
 
-		// Total number of points generated
-		square_points++;
 
-		// estimated pi after this iteration
-		pi = double(4 * circle_points) / square_points;
-
-		// For visual understanding (Optional)
-		cout << rand_x << " " << rand_y << " "
-			<< circle_points << " " << square_points
-			<< " - " << pi << endl
-			<< endl;
-
-		// Pausing estimation for first 10 values (Optional)
-		if (i < 20)
-			getchar();
-	}
-
-	// Final Estimated Value
-	cout << "\nFinal Estimation of Pi = " << pi;
-
-	return 0;
+    return 0;
 }
+
+

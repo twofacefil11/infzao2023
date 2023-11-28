@@ -4,7 +4,7 @@ using namespace std;
 
 int main(void) {
 
-    int size = 5;
+    int size = 3;
     int len = size - 1;
     float arr[size][size];
 

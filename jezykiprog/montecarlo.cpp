@@ -8,7 +8,7 @@ int main(void) {
 
     long w = 0, total = 0;
     long PREC = 10000;
-    long p;
+    unsigned long p;
     double dystans;
     double x, y;
     double pi;
@@ -32,6 +32,6 @@ int main(void) {
 
     pi = double(4 * w) / total;
     cout << "Masz tu PI: " << pi << endl;
-    
+
     return 0;
 }

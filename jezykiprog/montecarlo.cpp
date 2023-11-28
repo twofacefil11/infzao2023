@@ -18,6 +18,9 @@ int main(void) {
     cin >> p;  
     p++;
 
+    if (p > PREC * PREC)
+        p = PREC * PREC;
+
     for (unsigned long i = 0; i < p; i++) {
         
         x = double(rand() % (PREC + 1)) / PREC;

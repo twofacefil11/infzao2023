@@ -30,7 +30,7 @@ int main(void) {
         for (int j = 0; j < size; j++, offset++) {
             if (i + offset == size) offset = -i;
             dr *= arr[j][i + offset];
-            dl *= arr[i][len - offset];
+            dl *= arr[j][len - i - offset];
             cout << i + offset << " " << len - offset << endl;
         }
         wyznaczik = wyznaczik + dr - dl;

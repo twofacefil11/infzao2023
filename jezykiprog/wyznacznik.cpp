@@ -24,7 +24,7 @@ int main(void) {
 
     float dl = 1 , dr = 1;
     float wyznaczik = 0;
-    int offset;
+    int offset = 0;
 
     for (int i = 0; i < size; i++, offset = 0, dr = 1, dl = 1) {
         for (int j = 0; j < size; j++, offset++) {

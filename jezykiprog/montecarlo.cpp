@@ -9,17 +9,26 @@ int main(void) {
     long p;
     long x, y;
     int dystans;
-    long w = 0, poza = 0;
+    long w = 0, total = 0;
+    double pi;
 
     cout << "Podaj liczbe punkuf: ";
     cin >> p;  
 
     for (int i = 0; i < p * p; i++) {
         
-        x = double(rand() & p + 1 / p);
-        y = double(rand() & p + 1 / p);
+        x = double(rand() & p + 1) / p;
+        y = double(rand() & p + 1) / p;
     
-        dystans = x
+        dystans = x * x + y + y;
+
+        if (dystans <= 0)
+            w++;
+        total++;
+
+        pi = double(4 * w) / total;
+
+        
     }
 
     return 0;

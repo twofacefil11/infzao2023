@@ -17,10 +17,10 @@ int main(void) {
     cout << "Podaj liczbe punkuf: ";
     cin >> p;  
 
-    for (int i = 0; i < p * p; i++) {
+    for (int i = 0; i < PREC * PREC; i++) {
         
-        x = double(rand() & p + 1) / p;
-        y = double(rand() & p + 1) / p;
+        x = double(rand() % PREC + 1) / PREC;
+        y = double(rand() % PREC + 1) / PREC;
     
         dystans = x * x + y + y;
 

@@ -24,7 +24,7 @@ int main(void) {
     
         dystans = x * x + y * y;
 
-        if (dystans <= 0)
+        if (dystans <= 1)
             w++;
         total++;
 

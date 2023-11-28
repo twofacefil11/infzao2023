@@ -8,7 +8,7 @@ int main(void) {
 
     long PREC = 10000;
     long p;
-    long x, y;
+    double x, y;
     long dystans;
     long w = 0, total = 0;
     double pi;

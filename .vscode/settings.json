@@ -41,5 +41,8 @@
         "*.fls",
         "*.log",
         "*.fdb_latexmk"
-    ]
+    ],
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }

@@ -1,13 +1,14 @@
 #include <iostream>
 #include <time.h>
 
-#define PREC 1000000;
+// #define PREC 100000;
 
 using namespace std;
 
 int main(void) {
     srand(time(NULL));
 
+    long PREC = 100000;
     long p;
     long x, y;
     int dystans;
@@ -29,8 +30,8 @@ int main(void) {
         total++;
 
         pi = double(4 * w) / total;
-        
     }
 
+    cout << "Masz tu PI: "
     return 0;
 }

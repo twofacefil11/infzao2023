@@ -31,6 +31,7 @@ int main(void) {
             if (i + j == size) offset = 0;
             dr *= arr[i][i + offset];
             dl *= arr[i][len - offset];
+            cout << i + offset << " " << len - offset << endl;
         }
         wyznaczik = wyznaczik + dr - dl;
     }

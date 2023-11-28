@@ -22,14 +22,18 @@ int main(void) {
         x = double(rand() % (PREC + 1)) / 100000;
         y = double(rand() % (PREC + 1)) / 100000;
     
+        cout << double(rand() % (PREC + 1) / PREC) << endl;;
+        cout << double(rand() % (PREC + 1) / PREC) << endl;;
+        cout << double(rand() % (PREC + 1) / PREC) << endl;;
+
         dystans = x * x + y * y;
 
         if (dystans <= 1.0)
             w++;
         total++;
 
-        cout << " " << x << " " << y << " " << w << " " << total << endl;
-        cout << dystans << endl;
+        // cout << " " << x << " " << y << " " << w << " " << total << endl;
+        // cout << dystans << endl;
     }
     pi = double(4 * w) / total;
     cout << "Masz tu PI: " << pi << endl;

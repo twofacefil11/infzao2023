@@ -58,7 +58,7 @@ int main(void) {
     
         dystans = x * x + y * y;
 
-        if (dystans <= 1) // Corrected condition
+        if (dystans <= 1.0) // Corrected condition
             w++;
         total++;
     }

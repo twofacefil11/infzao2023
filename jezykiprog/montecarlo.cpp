@@ -6,7 +6,7 @@ using namespace std;
 int main(void) {
     srand(time(NULL));
 
-    long PREC = 100000;
+    long PREC = 10000;
     long p;
     long x, y;
     long dystans;

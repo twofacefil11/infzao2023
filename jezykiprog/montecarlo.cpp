@@ -22,7 +22,7 @@ int main(void) {
         x = double(rand() % (PREC + 1)) / 100000;
         y = double(rand() % (PREC + 1)) / 100000;
 
-        cout << x << endl;
+        cout << x * x << endl;
 
         dystans = x * x + y * y;
 

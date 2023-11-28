@@ -17,6 +17,7 @@ int main(void) {
     cout << "Podaj liczbe punkuf: ";
     cin >> p;  
     p++;
+    
     for (int i = 0; i < p; i++) {
         
         x = double(rand() % PREC + 1) / PREC;

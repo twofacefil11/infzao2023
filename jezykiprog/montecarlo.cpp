@@ -8,7 +8,7 @@ int main(void) {
 
     long w = 0, total = 0;
     long PREC = 10000;
-    unsigned long p;
+    unsigned long p; //18446744073709551615 (max)
     double dystans;
     double x, y;
     double pi;

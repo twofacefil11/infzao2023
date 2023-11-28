@@ -1,6 +1,6 @@
 #include <iostream>
 #include <time.h>
-
+#include <typeinfo>
 // #define PREC 100000;
 
 using namespace std;
@@ -31,6 +31,7 @@ int main(void) {
 
     }
     pi = double(4 * w) / total;
+    cout << typeid(pi).name();
 
     cout << "Masz tu PI: " << pi << endl;
     return 0;

@@ -8,7 +8,7 @@ int main(void) {
     srand(time(NULL));
 
     long w = 0, total = 0;
-    long PREC = 1000;
+    long PREC = 10000000;
     unsigned long p; //18446744073709551615 (maxa ale max możliwości to RPEC do kwadratu)
     double dystans;
     double x, y;

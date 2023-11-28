@@ -29,7 +29,7 @@ int main(void) {
         total++;
 
         cout << " " << x << " " << y << " " << w << " " << total << endl;
-        cout << dystans << ednl;
+        cout << dystans << endl;
     }
     pi = double(4 * w) / total;
     cout << "Masz tu PI: " << pi << endl;

@@ -6,11 +6,11 @@ using namespace std;
 int main(void) {
     srand(time(NULL));
 
+    long w = 0, total = 0;
     long PREC = 10000;
     long p;
-    double x, y;
     double dystans;
-    long w = 0, total = 0;
+    double x, y;
     double pi;
 
     cout << "Podaj liczbe punkuf: ";

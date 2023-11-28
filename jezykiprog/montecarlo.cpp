@@ -21,6 +21,7 @@ int main(void) {
         
         x = double(rand() % PREC + 1) / PREC;
         y = double(rand() % PREC + 1) / PREC;
+        cout << x << " " << y << endl;
     
         dystans = x * x + y * y;
 

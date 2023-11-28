@@ -5,7 +5,7 @@ using namespace std;
 int main(void) {
 
     int size = 3;
-
+    int len = size - 1;
     float arr[size][size];
 
     for (int i = 0; i < size; i++) {
@@ -22,21 +22,23 @@ int main(void) {
         cout << endl;
     } 
 
-    float dl, dr;
-    int offset = 0;
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
+    float dl = 1 , dr = 1;
+    float wyznaczik = 0;
+    int offset;
 
+    for (int i = 0; i < size; i++, offset = 0) {
+        for (int j = 0; j < size; j++, offset++) {
+            if (i + j == size) offset = 0;
+            dr *= arr[i][i + offset];
+            dl *= arr[i][len - offset];
         }
+        wyznaczik = wyznaczik + dr - dl;
     }
 
+    cout << "Wyznaczik = " << wyznaczik << endl;
 
-    //for evry row iterate twice
-        //once to add multiplies of diagonalsj to right
-            //to do thatjust have an inside loop that adds one every time to te rows
-            //for exciding rows, just subtract the size from its index and all gonna be fine;
-        //once to subtract multiples fo diagonals to left
-
-//or can i make it in one loop for both diagonals ?
+    //  0,0  0,1  0,2 | 0,0  0,1  0,2 | 0,0  0,1  0,2
+    //  1,0  1,1  1,2 | 1,0  1,1  1,2 | 1,0  1,1  1,2
+    //  2,0  2,1  2,2 | 2,0  2,1  2,2 | 2,0  2,1  2,2
     return 0;
 }

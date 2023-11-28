@@ -9,7 +9,7 @@ int main(void) {
 
     long w = 0, total = 0;
     long PREC = 10000;
-    unsigned long p;
+    long p;
     double dystans;
     double x, y;
     double pi;
@@ -21,7 +21,7 @@ int main(void) {
     if (p > PREC * PREC)
         p = PREC * PREC;
 
-    for (unsigned long i = 0; i < p; i++) {
+    for (long i = 0; i < p; i++) {
         
         x = double(rand() % (PREC + 1)) / PREC;
         y = double(rand() % (PREC + 1)) / PREC;

@@ -29,8 +29,8 @@ int main(void) {
             w++;
         total++;
 
-        pi = double(4 * w) / total;
     }
+    pi = double(4 * w) / total;
 
     cout << "Masz tu PI: " << pi << endl;
     return 0;

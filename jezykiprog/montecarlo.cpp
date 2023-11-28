@@ -29,8 +29,8 @@ int main(void) {
             w++;
         total++;
 
-        cout << " " << x << " " << y << " " << w << " " << total << endl;
-        cout << dystans << endl;
+        // cout << " " << x << " " << y << " " << w << " " << total << endl;
+        // cout << dystans << endl;
     }
     pi = double(4 * w) / total;
     cout << "Masz tu PI: " << pi << endl;

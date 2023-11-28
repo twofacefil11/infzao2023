@@ -22,8 +22,8 @@ int main(void) {
         x = double(rand() % (PREC + 1)) / PREC;
         y = double(rand() % (PREC + 1)) / PREC;
     
-        dystans = x * x + y * y;
-
+        dystans = sqrt(x * x + y * y);
+)
         if (dystans <= 1.0)
             w++;
         total++;

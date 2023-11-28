@@ -19,8 +19,8 @@ int main(void) {
 
     for (unsigned long i = 0; i < p; i++) {
         
-        x = double(rand() % (PREC + 1)) / PREC;
-        y = double(rand() % (PREC + 1)) / PREC;
+        x = double(rand() % (PREC)) / PREC;
+        y = double(rand() % (PREC)) / PREC;
     
         dystans = x * x + y * y;
 

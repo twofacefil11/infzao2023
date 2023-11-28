@@ -33,4 +33,4 @@ int main(void) {
     cout << w << " " << total;
     cout << "Masz tu PI: " << pi << endl;
     return 0;
-
+}

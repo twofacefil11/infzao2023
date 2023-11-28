@@ -17,7 +17,7 @@ int main(void) {
     cin >> p;  
     p++;
 
-    for (int i = 0; i < p; i++) {
+    for (unsigned long i = 0; i < p; i++) {
         
         x = double(rand() % PREC + 1) / PREC;
         y = double(rand() % PREC + 1) / PREC;

@@ -18,10 +18,12 @@ int main(void) {
     while (input != 'q') {
 
         // sprawdz(podaj(), losuj());
+
         int* test1= podaj();
-        for (int i = 0; i < 6; i++)_{
+        for (int i = 0; i < 6; i++) {
             cout << test1[i];
         }
+
         cout << "q - zakoncz: ";
         cin >> input;
 

@@ -19,8 +19,9 @@ int main(void) {
 
         sprawdz(podaj(), losuj());
 
-        cout << "q - zakoncz";
+        cout << "q - zakoncz: ";
         cin >> input;
+
         return 0;
     }
 }

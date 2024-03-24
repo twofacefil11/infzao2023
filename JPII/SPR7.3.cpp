@@ -73,7 +73,6 @@ int* losuj() {
         do {
             powt = 0; // powtórz
             r = rand();
-            // cout << r << endl;
 
             //w zakresie
             if (r < 1 || r > 49) {

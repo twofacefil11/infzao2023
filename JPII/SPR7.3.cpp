@@ -39,7 +39,7 @@ int* podaj() {
             for (int j = 0; j < i; i++)
                 if (input == strzaly[j]) {
                     input = 0;
-                    continue;
+                    break;
                 }
 
         } while (input < 1 || input > MAX);

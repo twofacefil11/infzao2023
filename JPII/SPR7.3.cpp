@@ -54,9 +54,9 @@ int* podaj() {
         } while (input < 1 || input > MAX);
 
         strzaly[i] = input;
-        delete[] strzaly;
     }
 
+    delete[] strzaly;
     return strzaly;
 }
 

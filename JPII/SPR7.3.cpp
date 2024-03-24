@@ -32,17 +32,19 @@ int main(void) {
 }
 
 int* podaj() {
+
     int* strzaly = new int[6];
     int input = 0;
 
     cout << "Podaj 6 liczb od 1 - 49." << endl;
+
     for (int i = 0; i < 6; i++) {
         do {
             cout << "Podaj " << i + 1 << " liczbe: ";
             cin >> input;
 
             //sprawdź, czy się powtarza
-            for (int j = 0; j < i; i++)
+            for (int j = 0; i j <= i; i++)
                 if (input == strzaly[j]) {
                     input = 0;
                     break;

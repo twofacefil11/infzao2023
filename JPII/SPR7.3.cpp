@@ -34,8 +34,14 @@ int* podaj() {
         do {
             cout << "Podaj " << i + 1 << " liczbe: ";
             cin >> input;
-        } while (input < 1 || input > MAX);
 
+            for (int j = 0; j < i; i++) {
+                if (input == strzaly[j]) {
+                    input = 0;
+                }
+            }
+
+        } while (input < 1 || input > MAX);
         strzaly[i] = input;
     }
 

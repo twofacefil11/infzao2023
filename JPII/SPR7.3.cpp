@@ -84,7 +84,7 @@ int* losuj() {
                 continue;
             }
 
-            //r siÄ™ powtarza
+            //r sie powtarza
             for (int j = 0; j < i; j++) {
                 if (losy[j] == r) { 
                     powt = true;

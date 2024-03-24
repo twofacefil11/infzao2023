@@ -110,7 +110,7 @@ void sprawdz(int* podane, int* losy) {
     }
 
     //debug 
-    for (int i = 0; i < 6; i++) cout << podane[i] << "  " << losy[i] << endl;
+    for (int i = 0; i < 6; i++) cout << podane[i] << " \t" << losy[i] << endl;
 
     cout << "Trafiles " << trafy << " liczb." << endl;
     return;

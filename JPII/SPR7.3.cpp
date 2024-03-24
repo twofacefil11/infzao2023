@@ -1,8 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-#include <time.h>
-
-#define MAX 49
+#include <time.h> 
 
 using namespace std;
 
@@ -17,78 +15,84 @@ int main(void) {
 
     while (input != 'q') {
 
-        // sprawdz(podaj(), losuj());
+        int* podane = podaj();
+        int* wylosowane = losuj();
+        sprawdz(podane, wylosowane);
 
-        int* test1= podaj();
-        for (int i = 0; i < 6; i++) {
-            cout << test1[i];
-        }
+        // debug
+        // int* lossy = podaj();
+        // for (int i = 0; i < 6; i++) {cout << lossy[i] << endl;}
+        
+        delete[] podane;
+        delete[] wylosowane;
 
-        cout << "q - zakoncz: ";
+        cout << "q - zakoncz\t";
         cin >> input;
-
-        return 0;
     }
+
+    return 0;
 }
 
 int* podaj() {
-
     int* strzaly = new int[6];
-    int input = 0;
+    int input;
 
     cout << "Podaj 6 liczb od 1 - 49." << endl;
-
     for (int i = 0; i < 6; i++) {
-        do {
+
+        input = 0;
+
+        while (input < 1 || input > 49) {
+
             cout << "Podaj " << i + 1 << " liczbe: ";
             cin >> input;
 
-            //sprawdź, czy się powtarza
-            for (int j = 0; j <= i; i++)
+            //sprawdzenie czy sie powtarza
+            for (int j = 0; j < i; j++) {
                 if (input == strzaly[j]) {
                     input = 0;
-                    cout << "break";
                     break;
                 }
-
-        } while (input < 1 || input > MAX);
-
+            }
+        }
         strzaly[i] = input;
     }
 
-    delete[] strzaly;
     return strzaly;
 }
 
 int* losuj() {
+
     int r = 0;
     bool powt;
-
     int* losy = new int[6];
 
     // for (int i = 0; i < 6; i++) losy[i] = 0;
 
     for (int i = 0; i < 6; i++) {
-        //losuj dopuki nie będzie:
-        do {
-            powt = 0; // powtórz
+        powt = true;
+
+        //powtarzaj losowanie dopuki:
+        while (powt) {
+
+            powt = false;
             r = rand();
 
-            //w zakresie
+            //r jest poza zakresem
             if (r < 1 || r > 49) {
-                powt = 1;
+                powt = true;
                 continue;
             }
 
-            //już wylosowana
-            for (int j = 0; j < i; i++) {
-                if (losy[j] == r) {
-                    powt = 1;
-                    continue;
+            //r siÄ™ powtarza
+            for (int j = 0; j < i; j++) {
+                if (losy[j] == r) { 
+                    powt = true;
+                    break;
                 }
             }
-
-        } while (powt);
+        } 
+        losy[i] = r;
     }
     return losy;
 }
@@ -108,7 +112,7 @@ void sprawdz(int* podane, int* losy) {
     //debug 
     for (int i = 0; i < 6; i++) cout << podane[i] << "  " << losy[i] << endl;
 
-    cout << trafy << endl;
+    cout << "Trafiles " << trafy << " liczb." << endl;
     return;
 }
 

@@ -44,7 +44,7 @@ int* podaj() {
             cin >> input;
 
             //sprawdź, czy się powtarza
-            for (int j = 0; i j <= i; i++)
+            for (int j = 0; j <= i; i++)
                 if (input == strzaly[j]) {
                     input = 0;
                     break;

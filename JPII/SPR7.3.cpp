@@ -18,8 +18,8 @@ int main(void) {
     while (input != 'q') {
 
         // sprawdz(podaj(), losuj());
-        podaj();
-
+        int* test1= podaj();
+        cout << &podaj << endl;
         cout << "q - zakoncz: ";
         cin >> input;
 

@@ -37,8 +37,10 @@ int* podaj() {
 
             //sprawdź, czy się powtarza
             for (int j = 0; j < i; i++)
-                if (input == strzaly[j]) 
+                if (input == strzaly[j]) {
                     input = 0;
+                    continue;
+                }
 
         } while (input < 1 || input > MAX);
 

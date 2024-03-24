@@ -17,7 +17,8 @@ int main(void) {
 
     while (input != 'q') {
 
-        sprawdz(podaj(), losuj());
+        // sprawdz(podaj(), losuj());
+        podaj();
 
         cout << "q - zakoncz: ";
         cin >> input;

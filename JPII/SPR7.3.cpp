@@ -19,7 +19,9 @@ int main(void) {
 
         // sprawdz(podaj(), losuj());
         int* test1= podaj();
-        cout << &podaj << endl;
+        for (int i = 0; i < 6; i++)_{
+            cout << test1[i];
+        }
         cout << "q - zakoncz: ";
         cin >> input;
 

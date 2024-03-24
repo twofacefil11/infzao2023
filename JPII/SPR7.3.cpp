@@ -47,6 +47,7 @@ int* podaj() {
             for (int j = 0; j <= i; i++)
                 if (input == strzaly[j]) {
                     input = 0;
+                    cout << "break",
                     break;
                 }
 
